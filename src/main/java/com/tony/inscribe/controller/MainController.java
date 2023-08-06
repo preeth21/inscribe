@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Controller
 public class MainController {
 
-    @GetMapping("/login")
+    @GetMapping("/")
     public String login() {
 
         return "login";
@@ -21,7 +21,7 @@ public class MainController {
     }
 
 
-    @GetMapping("/")
+    @GetMapping("/home")
     public String home(){
 
         return "home";
